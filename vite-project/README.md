@@ -18,7 +18,7 @@ isLeapYear(2022);
 
 **Remeber to write** `import isLeapYear from "leap-year"` **in the beginning of your JavaScript file.**
 
-## How I've used it
+## How I used it in a demo project
 
 I made a simple website that takes the number from an input field, displays it in the h1 and determines if it's a leap year or not when pressing the submit button.
 
