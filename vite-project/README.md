@@ -56,4 +56,4 @@ function displayYear(inputYear) {
 
 Here is a link to the original npm-site by sindresorhus: [isLeapYear](https://www.npmjs.com/package/leap-year)
 
-Here is a link to a demo site: [Demo](https://www.youtube.com/watch?v=MRUe29lHOMY)
+Here is a link to a demo video of the site: [Demo](https://www.youtube.com/watch?v=MRUe29lHOMY)
