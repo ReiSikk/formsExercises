@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Form test</title>
+  </head>
+  <body>
+    <main>
+      <section class="form_group">
+        <form action="submit" onsubmit="return false">
+          <fieldset>
+            <label for="name"
+              >Name<br /><span>Enter the shows name</span>
+              <input id="name" type="text" name="name" type="text" required placeholder="E.g John Doe" />
+            </label>
+
+            <label for="winner"
+              >Seasons<br /><span>Enter the number of seasons</span>
+              <input type="text" id="winner" name="winner" required placeholder="E.g Bayern Münich" />
+            </label>
+
+            <label for="topscorer"
+              >Director<br /><span>Who's the director</span>
+              <input type="text" id="topscorer" required />
+            </label>
+
+            <label for="nrofgoals"
+              >Rating<br /><span>Enter your rating for the show</span>
+              <input type="number" inputmode="numeric" min="0" max="40" required />
+            </label>
+          </fieldset>
+        </form>
+        <button type="submit" forrole="button">Submit answer</button>
+      </section>
+    </main>
+  </body>
+</html>

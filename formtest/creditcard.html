@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="credit.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Form test</title>
+  </head>
+  <body>
+    <main>
+      <form action="submit">
+        <label for="crednr">Credit card number</label>
+        <input
+          type="text"
+          id="crednr"
+          name="crednr"
+          inputmode="numeric"
+          minlength="16"
+          maxlength="16"
+          placeholder="1234 4567 8912 3456"
+          required
+          autofocus
+        />
+        <label for="month">Month</label>
+        <input type="text" id="month" name="month" minlength="2" maxlength="2" placeholder="03" required />
+        <label for="crednr">Year</label>
+        <input type="text" id="year" name="year" minlength="2" maxlength="2" placeholder="25" required />
+      </form>
+      <button>Pay Me</button>
+    </main>
+    <script src="credit.js"></script>
+  </body>
+</html>
