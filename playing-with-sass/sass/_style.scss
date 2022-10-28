@@ -1,0 +1,9 @@
+@use "./navigation";
+$color-primary: hotpink;
+
+body {
+  background: $color-primary;
+}
+nav {
+  background-color: navigation.$nav-color;
+}
